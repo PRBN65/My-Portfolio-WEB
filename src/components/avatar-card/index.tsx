@@ -1,7 +1,5 @@
-import { FALLBACK_IMAGE } from '../../constants';
 import { Profile } from '../../interfaces/profile';
 import { skeleton } from '../../utils';
-import LazyImage from '../lazy-image';
 
 interface AvatarCardProps {
   profile: Profile | null;

@@ -2,25 +2,21 @@ import { Fragment } from 'react';
 import {
   AiFillGithub,
   AiFillInstagram,
-  AiFillMediumSquare,
 } from 'react-icons/ai';
 import { CgDribbble } from 'react-icons/cg';
 import {
   FaBehanceSquare,
   FaBuilding,
-  FaDev,
   FaFacebook,
-  FaGlobe,
   FaLinkedin,
   FaMastodon,
   FaReddit,
-  FaStackOverflow,
   FaTelegram,
   FaYoutube,
 } from 'react-icons/fa';
 import { FaSquareThreads } from 'react-icons/fa6';
 import { MdLocationOn } from 'react-icons/md';
-import { RiDiscordFill, RiMailFill, RiPhoneFill } from 'react-icons/ri';
+import {  RiMailFill, RiPhoneFill } from 'react-icons/ri';
 import { SiResearchgate, SiX, SiUdemy } from 'react-icons/si';
 import { Profile } from '../../interfaces/profile';
 import {
