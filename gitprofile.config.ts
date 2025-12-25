@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'PRBN65', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -32,56 +32,57 @@ const CONFIG = {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-            {
-              title: 'PICASSO CONSULTANT PVT. LTD.',
-              description: 'Volunteer for Lalitpur transport master plan survey (2017).',
-              imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-              link: '#',
-            },
-            {
-              title: 'MV DUGAR GROUP',
-              description: 'Site engineer for multiple hydropower projects (2017–2018).',
-              imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-              link: '#',
-            },
-            {
-              title: 'Lila Gauri Engineering Consultancy',
-              description: 'Senior engineer for DPR, valuation, and supervision (2019–Present).',
-              imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-              link: '#',
-            },
-            {
-              title: 'Opportunity Village Nepal',
-              description: 'Project manager for building and water supply systems (2020–2021).',
-              imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-              link: '#',
-            },
-            {
-              title: 'AAC ITTA UDHYOG PVT. LTD.',
-              description: 'Part-time project engineer for AAC block sites (2022–Present).',
-              imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-              link: '#',
-            },
-            {
-              title: 'Pokhara University',
-              description: 'Assistant Professor, Civil Engineering (2022–2024).',
-              imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-              link: '#',
-            },
-            {
-              title: 'Informatics College Pokhara',
-              description: 'Senior lecturer, BSc (Hons) Computing (2024–Present).',
-              imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-              link: '#',
-            },
-            {
-              title: 'Tribhuvan University (TU)',
-              description: 'Part-time lecturer, Civil & Geomatics Engineering (2025–Present).',
-              imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-              link: '#',
-            },
-          ],
-    },
+                {
+                  title: 'PICASSO CONSULTANT PVT. LTD.',
+                  description: 'Volunteer for Lalitpur transport master plan survey (2017).',
+                  imageUrl: 'https://images.unsplash.com/photo-1581092160607-ee67f55b1d23',
+                  link: '#',
+                },
+                {
+                  title: 'MV DUGAR GROUP',
+                  description: 'Site engineer for multiple hydropower projects (2017–2018).',
+                  imageUrl: 'https://images.unsplash.com/photo-1509395176047-4a66953fd231',
+                  link: '#',
+                },
+                {
+                  title: 'Lila Gauri Engineering Consultancy',
+                  description: 'Senior engineer for DPR, valuation, and supervision (2019–Present).',
+                  imageUrl: 'https://images.unsplash.com/photo-1590650046871-92c887180603',
+                  link: '#',
+                },
+                {
+                  title: 'Opportunity Village Nepal',
+                  description: 'Project manager for building and water supply systems (2020–2021).',
+                  imageUrl: 'https://images.unsplash.com/photo-1568605114967-8130f3a36994',
+                  link: '#',
+                },
+                {
+                  title: 'AAC ITTA UDHYOG PVT. LTD.',
+                  description: 'Part-time project engineer for AAC block sites (2022–Present).',
+                  imageUrl: 'https://images.unsplash.com/photo-1581093458791-9f3c3900df4b',
+                  link: '#',
+                },
+                {
+                  title: 'Pokhara University',
+                  description: 'Assistant Professor, Civil Engineering (2022–2024).',
+                  imageUrl: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914',
+                  link: '#',
+                },
+                {
+                  title: 'Informatics College Pokhara',
+                  description: 'Senior lecturer, BSc (Hons) Computing (2024–Present).',
+                  imageUrl: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d',
+                  link: '#',
+                },
+                {
+                  title: 'Tribhuvan University (TU)',
+                  description: 'Part-time lecturer, Civil & Geomatics Engineering (2025–Present).',
+                  imageUrl: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e',
+                  link: '#',
+                },
+              ],
+        }
+
   },
   seo: { title: 'Portfolio of Parbin Banstola', description: '', imageURL: '' },
   social: {
@@ -140,7 +141,7 @@ const CONFIG = {
       company: 'Worked as active participant ',
       position: 'Worked as active participant in BE Model Competition organized by CESS- NEPAL (Civil Engineering Students Society Nepal) in Pulchowk Campus (2017)',
       from: 'September 2017',
-      to: 'Present',
+      to: 'October 2017',
       // companyLink: 'https://example.com',
     },
   ],

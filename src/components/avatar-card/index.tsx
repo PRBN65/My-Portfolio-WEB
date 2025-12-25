@@ -1,5 +1,6 @@
 import { Profile } from '../../interfaces/profile';
 import { skeleton } from '../../utils';
+import LazyImage from '../lazy-image';
 
 interface AvatarCardProps {
   profile: Profile | null;
@@ -54,6 +55,12 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
                 //     shape: '',
                 //   })}
                 // />
+                <img
+                  src="../../../public/porfile_bg.png"
+                  alt="Profile background"
+                  className="w-full h-full object-cover"
+                />
+
               }
             </div>
           </div>
@@ -83,7 +90,7 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
             <a
               href={resumeFileUrl}
               target="_blank"
-              className="btn btn-outline btn-sm text-xs mt-6 opacity-50"
+              className="btn btn-outline btn-sm text-xs mt-6 opacity-50" 
               download
               rel="noreferrer"
             >
