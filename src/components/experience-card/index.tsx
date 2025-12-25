@@ -78,7 +78,7 @@ const ExperienceCard = ({
                 {experiences.map((experience, index) => (
                   <ListItem
                     key={index}
-                    time={`${experience.from} - ${experience.to}`}
+                    time={`${experience.from}`}
                     position={experience.position}
                     company={experience.company}
                     companyLink={
