@@ -32,10 +32,11 @@ const CONFIG = {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-                {
+                  {
                   title: 'PICASSO CONSULTANT PVT. LTD.',
                   description: 'Volunteer for Lalitpur transport master plan survey (2017).',
-                  imageUrl: 'https://images.unsplash.com/photo-1581092160607-ee67f55b1d23',
+                  imageUrl:
+                    'https://images.unsplash.com/photo-1578357078586-491adf1aa5ba?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                   link: '#',
                 },
                 {
@@ -59,7 +60,7 @@ const CONFIG = {
                 {
                   title: 'AAC ITTA UDHYOG PVT. LTD.',
                   description: 'Part-time project engineer for AAC block sites (2022–Present).',
-                  imageUrl: 'https://images.unsplash.com/photo-1581093458791-9f3c3900df4b',
+                  imageUrl: 'https://images.unsplash.com/photo-1762146828422-50a8bd416d3c?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                   link: '#',
                 },
                 {

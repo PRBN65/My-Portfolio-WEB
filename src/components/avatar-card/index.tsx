@@ -56,7 +56,7 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
                 //   })}
                 // />
                 <img
-                  src="../../../public/porfile_bg.png"
+                  src="/porfile_bg.png"
                   alt="Profile background"
                   className="w-full h-full object-cover"
                 />
@@ -88,7 +88,7 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
             </div>
           ) : (
             <a
-              href={resumeFileUrl}
+              href='https://raw.githubusercontent.com/PRBN65/My-Portfolio-WEB/main/prabin_banstola_cv.pdf'
               target="_blank"
               className="btn btn-outline btn-sm text-xs mt-6 opacity-50" 
               download
